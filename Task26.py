@@ -2,14 +2,12 @@
 # и возводит число А в целую степень B с помощью рекурсии.
 
 
-def f(a, b, n):
+def f(a, b):
     if b == 0:
-        return n
-    n = n*a
-    return f(a, b-1, n)
+        return 1
+    return a*f(a, b-1)
 
 
-n = 1
 a = int(input("Введите число А: "))
 b = int(input("Введите число В: "))
-print(f(a, b, n))
+print(f(a, b))
