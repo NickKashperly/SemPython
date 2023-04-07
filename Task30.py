@@ -14,3 +14,10 @@ n = int(input('Введите количество чисел: '))
 
 f(a, d, n)
 print(*list_1)
+
+
+# a1 = int(input())
+# d = int(input())
+# n = int(input())
+# for i in range(n):
+#     print(a1 + i * d)
