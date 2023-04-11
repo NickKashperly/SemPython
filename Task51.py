@@ -33,3 +33,6 @@ else:
 # print('same')
 # else:
 # print('different')
+
+
+# file.write(f'{el["Фамилия"]},{el["Имя"]},{el["Телефон"]},{el["Описание"]}\n')
